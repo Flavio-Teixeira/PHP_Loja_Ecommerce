@@ -26,7 +26,7 @@ class EnviadorDeEmail
             $mail->Port       = 587;                                    
 
             $mail->setFrom('postmaster@sandboxe25d4322f11647d59ccfbc20ad263d53.mailgun.org', 'Loja');
-            $mail->addAddress('wandersonmaced@gmail.com', 'Flávio Teixeira');
+            $mail->addAddress('teste@teste.com', 'Flávio Teixeira');
             $mail->Subject = 'Novo Produto Cadastrado';
             $mail->Body = $mensagem;
 
